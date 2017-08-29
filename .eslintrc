@@ -354,9 +354,6 @@
 		"no-trailing-spaces": [
 			"error"
 		],
-		"no-underscore-dangle": [
-			"error"
-		],
 		"no-unneeded-ternary": [
 			"error"
 		],

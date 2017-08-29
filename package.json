@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/jessie-codes/gelf-file#readme",
   "dependencies": {
+    "fast-safe-stringify": "^1.2.0",
     "time-stamp": "^2.0.0"
   },
   "devDependencies": {
