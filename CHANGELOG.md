@@ -1,3 +1,13 @@
+### 1.1.0 (2017-08-29)
+
+##### Documentation Changes
+
+* **$api:** Update README. ([b5134169](https://github.com/jessie-codes/gelf-file/commit/b5134169d35dde6dfd4d12d89e9d4d5aaa08d7ab))
+
+##### New Features
+
+* **$api:** Add tag argument. ([f43fc483](https://github.com/jessie-codes/gelf-file/commit/f43fc483503b4c4fbc42a2f0b58adc2c018eaade))
+
 ## 1.0.0 (2017-08-29)
 
 ##### Continuous Integration
