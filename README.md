@@ -41,8 +41,14 @@ const logger = require('gelf-file')('./app.log', {logLevel: 'WARNING'}, {app: 'm
 logger.log('DEBUG', 'started app');
 ```
 
-## Functions
+## API
 
+### Parameters
++ **logLevel** `String` - The desired log level. Valid values are listed in the log level list above.
++ **message** `String` - The log message.
++ **tags** `Object` - Additional information to store with the log message.
+
+### Functions
 + `log(logLevel, message, tags)` - Creates a log entry for the desired log level.
 + `emergency(message, tags)` - Creates an emergency log entry.
 + `alert(message, tags)` - Creates an alert log entry.
