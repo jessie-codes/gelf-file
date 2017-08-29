@@ -43,12 +43,16 @@ logger.log('DEBUG', 'started app');
 
 ## Functions
 
-+ `log(logLevel, message)` - Creates a log entry for the desired log level.
-+ `emergency(message)` - Creates an emergency log entry.
-+ `alert(message)` - Creates an alert log entry.
-+ `critical(message)` - Creates an critical log entry.
-+ `error(message)` - Creates an error log entry.
-+ `warning(message)` - Creates an warning log entry.
-+ `notice(message)` - Creates an notice log entry.
-+ `info(message)` - Creates an info log entry.
-+ `debug(message)` - Creates an debug log entry.
++ `log(logLevel, message, tags)` - Creates a log entry for the desired log level.
++ `emergency(message, tags)` - Creates an emergency log entry.
++ `alert(message, tags)` - Creates an alert log entry.
++ `critical(message, tags)` - Creates an critical log entry.
++ `error(message, tags)` - Creates an error log entry.
++ `warning(message, tags)` - Creates an warning log entry.
++ `notice(message, tags)` - Creates an notice log entry.
++ `info(message, tags)` - Creates an info log entry.
++ `debug(message, tags)` - Creates an debug log entry.
+
+## Inspiration
+
+This project was inspired by [log](https://www.npmjs.com/package/log)
