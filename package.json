@@ -1,6 +1,6 @@
 {
   "name": "gelf-file",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Gelf formatted log files.",
   "main": "lib/index.js",
   "scripts": {
