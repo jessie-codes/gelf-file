@@ -7,11 +7,11 @@ const logger = require('../lib')('./test.log', {
 	app: 'test'
 });
 
-fs.writeFileSync('./test.log', '', {
-	flag: 'w+'
-});
-
 test('adds a log entry depending on log level', (t) => {
+	fs.writeFileSync('./test.log', '', {
+		flag: 'w+'
+	});
+
 	logger.log('EMERGENCY', 'adds a log entry');
 	logger.log('DEBUG', 'does not add a log entry');
 	logger.emergency('adds a log entry');
