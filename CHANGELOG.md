@@ -1,3 +1,15 @@
+#### 1.2.1 (2017-09-17)
+
+##### Chores
+
+* **package:**
+  * update lockfile ([f8b678b2](https://github.com/jessie-codes/gelf-file/commit/f8b678b27fd81370dc1457f50bed86f4c61c4fce))
+  * update eslint to version 4.7.0 ([1d6bd39f](https://github.com/jessie-codes/gelf-file/commit/1d6bd39f14094146eef286810fa45e825e4d5f89))
+
+##### Refactors
+
+* **$log:** Better flatten function ([4fb0d641](https://github.com/jessie-codes/gelf-file/commit/4fb0d64139d1ff7d5912c997d1051447511f0f3f))
+
 ### 1.2.0 (2017-09-17)
 
 ##### Bug Fixes
