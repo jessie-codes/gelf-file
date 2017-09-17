@@ -1,3 +1,9 @@
+### 1.2.0 (2017-09-17)
+
+##### Bug Fixes
+
+* **$log:** Fix for tags. ([2d3b161a](https://github.com/jessie-codes/gelf-file/commit/2d3b161a4857fb7935f9d440003603d151a74c7a))
+
 #### 1.1.2 (2017-09-04)
 
 ### 1.1.0 (2017-08-29)
