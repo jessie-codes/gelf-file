@@ -1,3 +1,9 @@
+#### 1.3.1 (2017-10-16)
+
+##### Build System / Dependencies
+
+* **dependencies:** Missing dependency ([33653d9f](https://github.com/jessie-codes/gelf-file/commit/33653d9f9d85fec437f841ddd370d12e94989cc5))
+
 ### 1.3.0 (2017-10-16)
 
 ##### Chores
