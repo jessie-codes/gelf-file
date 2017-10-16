@@ -1,3 +1,15 @@
+### 1.3.0 (2017-10-16)
+
+##### Chores
+
+* **package:**
+  * update lockfile ([4613b1d5](https://github.com/jessie-codes/gelf-file/commit/4613b1d556837b1c5e181ed89102e89c20f4bc67))
+  * update generate-changelog to version 1.5.0 ([c952e82c](https://github.com/jessie-codes/gelf-file/commit/c952e82c357ba5b5765544bd7b4408e9c4d7fcc4))
+
+##### Bug Fixes
+
+* **log:** Fix flatten function ([7f6074f8](https://github.com/jessie-codes/gelf-file/commit/7f6074f8be8b930bb5b528f6301cb439d45ba98e))
+
 #### 1.2.1 (2017-09-17)
 
 ##### Chores
