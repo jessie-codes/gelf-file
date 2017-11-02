@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/jessie-codes/gelf-file#readme",
   "dependencies": {
-    "fast-safe-stringify": "1.2.0",
+    "fast-safe-stringify": "1.2.1",
     "flat": "4.0.0",
     "lodash.mapkeys": "4.6.0",
     "time-stamp": "2.0.0"
