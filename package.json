@@ -27,15 +27,15 @@
   },
   "homepage": "https://github.com/jessie-codes/gelf-file#readme",
   "dependencies": {
-    "fast-safe-stringify": "1.2.0",
+    "fast-safe-stringify": "2.0.2",
     "flat": "4.0.0",
     "lodash.mapkeys": "4.6.0",
     "time-stamp": "2.0.0"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "2.0.0",
+    "cz-conventional-changelog": "2.1.0",
     "eslint": "4.15.0",
-    "generate-changelog": "1.5.0",
+    "generate-changelog": "1.7.0",
     "tape": "4.8.0"
   },
   "config": {
