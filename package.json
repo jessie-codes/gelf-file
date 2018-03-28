@@ -35,7 +35,7 @@
   "devDependencies": {
     "cz-conventional-changelog": "2.1.0",
     "eslint": "4.15.0",
-    "generate-changelog": "1.7.0",
+    "generate-changelog": "1.7.1",
     "tape": "4.8.0"
   },
   "config": {
