@@ -1,3 +1,28 @@
+### 1.4.0 (2018-12-04)
+
+##### Chores
+
+*  🤖 Update changelog scripts ([63b46af2](https://github.com/jessie-codes/gelf-file/commit/63b46af218282352d28498b622b9067cf2fb3dde))
+*  🤖 Update dependencies ([aa28f310](https://github.com/jessie-codes/gelf-file/commit/aa28f3102df343fef8ea5b072d9a1252978910bb))
+* **package:**
+  *  update lockfile package-lock.json ([868d349c](https://github.com/jessie-codes/gelf-file/commit/868d349c34df09d8711f861597690e917d502726))
+  *  update dependencies ([7fcc18e3](https://github.com/jessie-codes/gelf-file/commit/7fcc18e34d7a6187b8728d427ab6643014edcf9b))
+  *  update lockfile ([ae5ce143](https://github.com/jessie-codes/gelf-file/commit/ae5ce1434388a40af1ea64eddf39bfa029d62d6d))
+  *  update lockfile ([6fed2afb](https://github.com/jessie-codes/gelf-file/commit/6fed2afbc6221cbb920d7125b38419d44357a824))
+  *  update eslint to version 4.15.0 ([4337c3f0](https://github.com/jessie-codes/gelf-file/commit/4337c3f0307eb7c75f7d0d53ba2472648b8b6bcf))
+  *  update lockfile ([f5caa8a1](https://github.com/jessie-codes/gelf-file/commit/f5caa8a10c37823f707ca34cc97870d24b4e4dbf))
+  *  update generate-changelog to version 1.7.0 ([6b705b1d](https://github.com/jessie-codes/gelf-file/commit/6b705b1d57bc744a2d5a65d11ce9037e0a93e82b))
+  *  update lockfile ([f73899f7](https://github.com/jessie-codes/gelf-file/commit/f73899f7179fd5faacd02de6af7d601c81ca4c52))
+  *  update cz-conventional-changelog to version 2.1.0 ([4a2ed3ec](https://github.com/jessie-codes/gelf-file/commit/4a2ed3ecab7474b01bc723af6a13e75c56d3a14d))
+
+##### Documentation Changes
+
+*  ✏️ Add badges to README ([c314bb14](https://github.com/jessie-codes/gelf-file/commit/c314bb1473f67bbbe77127fe8728323a3334398f))
+
+##### Bug Fixes
+
+* **package:**  update fast-safe-stringify to version 2.0.2 ([39bfefd6](https://github.com/jessie-codes/gelf-file/commit/39bfefd6a9f357dbf3e5a38755da9227144adf18))
+
 #### 1.3.1 (2017-10-16)
 
 ##### Build System / Dependencies
