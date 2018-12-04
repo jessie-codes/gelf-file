@@ -1,55 +1,55 @@
-const fs = require('fs');
-const test = require('tape');
+const fs = require('fs')
+const test = require('tape')
 const logger = require('../lib')('./test.log', {
-	logLevel: 'WARNING',
-	timestamp: 'YYYY-MM-DD HH:mm:ss.ms'
+  logLevel: 'WARNING',
+  timestamp: 'YYYY-MM-DD HH:mm:ss.ms'
 }, {
-	app: 'test'
-});
+  app: 'test'
+})
 
 test('adds a log entry depending on log level', (t) => {
-	fs.writeFileSync('./test.log', '', {
-		flag: 'w+'
-	});
+  fs.writeFileSync('./test.log', '', {
+    flag: 'w+'
+  })
 
-	logger.log('EMERGENCY', 'adds a log entry');
-	logger.log('DEBUG', 'does not add a log entry');
-	logger.emergency('adds a log entry');
-	logger.alert('adds a log entry');
-	logger.critical('adds a log entry');
-	logger.error('adds a log entry');
-	logger.warning('adds a log entry');
-	logger.notice('does not add a log entry');
-	logger.info('does not add a log entry');
-	logger.debug('does not add a log entry');
+  logger.log('EMERGENCY', 'adds a log entry')
+  logger.log('DEBUG', 'does not add a log entry')
+  logger.emergency('adds a log entry')
+  logger.alert('adds a log entry')
+  logger.critical('adds a log entry')
+  logger.error('adds a log entry')
+  logger.warning('adds a log entry')
+  logger.notice('does not add a log entry')
+  logger.info('does not add a log entry')
+  logger.debug('does not add a log entry')
 
-	const stream = fs.createReadStream('./test.log', { flags: 'r+' });
-	let buf = '';
-	let count = 0;
+  const stream = fs.createReadStream('./test.log', { flags: 'r+' })
+  let buf = ''
+  let count = 0
 
-	stream.on('data', (chunk) => {
-		buf += chunk;
-		if (buf[buf.length - 1] !== '\n') return;
-		buf.split('\n').map((line) => {
-			if (!line.length) return false;
-			try {
-				const data = JSON.parse(line);
+  stream.on('data', (chunk) => {
+    buf += chunk
+    if (buf[buf.length - 1] !== '\n') return
+    buf.split('\n').map((line) => {
+      if (!line.length) return false
+      try {
+        const data = JSON.parse(line)
 
-				t.equal(data._app, 'test');
-				t.ok(data.timestamp.indexOf(/[0-9]{4}-[0-9]{2}-[0-9]{2}/));
+        t.equal(data._app, 'test')
+        t.ok(data.timestamp.indexOf(/[0-9]{4}-[0-9]{2}-[0-9]{2}/))
 
-				if (data.short_message === 'adds a log entry') count++;
-			} catch (err) {
-				// Do nothing
-			}
+        if (data.short_message === 'adds a log entry') count++
+      } catch (err) {
+        // Do nothing
+      }
 
-			return true;
-		});
-		buf = '';
-	});
+      return true
+    })
+    buf = ''
+  })
 
-	stream.on('end', () => {
-		t.equal(count, 6);
-		t.end();
-	});
-});
+  stream.on('end', () => {
+    t.equal(count, 6)
+    t.end()
+  })
+})
