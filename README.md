@@ -1,9 +1,11 @@
 # gelf-file
 
+[![NPM](https://nodei.co/npm/gelf-file.png?compact=true)](https://nodei.co/npm/gelf-file/)
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/jessie-codes/gelf-file.svg)](https://greenkeeper.io/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Build Status](https://travis-ci.org/jessie-codes/gelf-file.svg?branch=master)](https://travis-ci.org/jessie-codes/gelf-file)
-[![npm version](https://badge.fury.io/js/gelf-file.svg)](https://badge.fury.io/js/gelf-file)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 Gelf formatted log files.
 
