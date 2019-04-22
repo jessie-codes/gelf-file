@@ -28,8 +28,8 @@
   "homepage": "https://github.com/jessie-codes/gelf-file#readme",
   "dependencies": {
     "fast-safe-stringify": "^2.0.6",
-    "flat": "^4.1.0",
     "lodash": "^4.17.11",
+    "safe-flat": "^1.0.0",
     "time-stamp": "^2.2.0"
   },
   "devDependencies": {
