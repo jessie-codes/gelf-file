@@ -1,9 +1,3 @@
-### 1.7.0 (2019-04-22)
-
-##### Bug Fixes
-
-*  Updated to use safe-flat to handle circular references ([f9b3c44d](https://github.com/jessie-codes/gelf-file/commit/f9b3c44d55582192c0937cf593a0fb2607250f1f))
-
 ### 1.6.0 (2018-12-04)
 
 ##### Chores

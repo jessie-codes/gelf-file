@@ -3,9 +3,10 @@
 [![NPM](https://nodei.co/npm/gelf-file.png?compact=true)](https://nodei.co/npm/gelf-file/)
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/jessie-codes/gelf-file.svg)](https://greenkeeper.io/)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Build Status](https://travis-ci.org/jessie-codes/gelf-file.svg?branch=master)](https://travis-ci.org/jessie-codes/gelf-file)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Coverage Status](https://coveralls.io/repos/github/jessie-codes/gelf-file/badge.svg?branch=master)](https://coveralls.io/github/jessie-codes/gelf-file?branch=master)
 
 Gelf formatted log files.
 
