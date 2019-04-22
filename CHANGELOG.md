@@ -1,3 +1,13 @@
+### 1.7.0 (2019-04-22)
+
+##### Continuous Integration
+
+*  Add coveralls, update travis script ([49d6b18b](https://github.com/jessie-codes/gelf-file/commit/49d6b18b0484b06b4aa1b45afd21fc51c88de925))
+
+##### Bug Fixes
+
+*  Updated to use safe-flat to handle circular references ([f9b3c44d](https://github.com/jessie-codes/gelf-file/commit/f9b3c44d55582192c0937cf593a0fb2607250f1f))
+
 ### 1.6.0 (2018-12-04)
 
 ##### Chores
