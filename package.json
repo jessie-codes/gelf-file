@@ -1,6 +1,6 @@
 {
   "name": "gelf-file",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Gelf formatted log files.",
   "main": "lib/index.js",
   "scripts": {
@@ -28,23 +28,23 @@
   },
   "homepage": "https://github.com/jessie-codes/gelf-file#readme",
   "dependencies": {
-    "fast-safe-stringify": "^2.0.6",
-    "lodash": "^4.17.11",
-    "safe-flat": "^1.0.0",
+    "fast-safe-stringify": "^2.0.7",
+    "lodash": "^4.17.15",
+    "safe-flat": "^1.1.0",
     "time-stamp": "^2.2.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.3",
-    "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^5.9.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "generate-changelog": "^1.7.1",
-    "nyc": "^14.0.0",
-    "tape": "^4.9.1"
+    "coveralls": "^3.0.6",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "generate-changelog": "^1.8.0",
+    "nyc": "^14.1.1",
+    "tape": "^4.11.0"
   },
   "config": {
     "commitizen": {
