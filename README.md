@@ -2,6 +2,7 @@
 
 [![NPM](https://nodei.co/npm/gelf-file.png?compact=true)](https://nodei.co/npm/gelf-file/)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/jessie-codes/gelf-file/badge.svg)](https://snyk.io/test/github/jessie-codes/gelf-file)
 [![Greenkeeper badge](https://badges.greenkeeper.io/jessie-codes/gelf-file.svg)](https://greenkeeper.io/)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
