@@ -1,3 +1,23 @@
+#### 1.8.1 (2020-09-12)
+
+##### Build System / Dependencies
+
+*  migrate to Snyk ([e2953f80](https://github.com/jessie-codes/gelf-file/commit/e2953f80afe79d351854e974c421e4eb1c424855))
+
+##### Chores
+
+*  remove Greenkeeper badge ([6122b0fd](https://github.com/jessie-codes/gelf-file/commit/6122b0fd904baf40d23d08312fcbd784fa9c18ed))
+*  upgrade Dependencies ([b806323b](https://github.com/jessie-codes/gelf-file/commit/b806323b5aaaec722189959674dbc39dda9f461b))
+* **package:**  update eslint-plugin-node to version 9.1.0 ([#22](https://github.com/jessie-codes/gelf-file/pull/22)) ([2fe04baf](https://github.com/jessie-codes/gelf-file/commit/2fe04baf6f9440dbd52ebf94f9672b53a5226f49))
+
+##### Continuous Integration
+
+*  Add coveralls, update travis script ([49d6b18b](https://github.com/jessie-codes/gelf-file/commit/49d6b18b0484b06b4aa1b45afd21fc51c88de925))
+
+##### Bug Fixes
+
+*  Updated to use safe-flat to handle circular references ([f9b3c44d](https://github.com/jessie-codes/gelf-file/commit/f9b3c44d55582192c0937cf593a0fb2607250f1f))
+
 ### 1.8.0 (2019-10-09)
 
 ##### Chores
